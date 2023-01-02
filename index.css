@@ -1,6 +1,7 @@
 /* Reset */
 h1,h2,h3,h4,h5,p{
-  font-family: Arial;
+  font-family: 'PP Gosha Sans', sans-serif;
+  font-size: 0.9rem;
   color: white;
   margin: 0;
   padding: 0;
@@ -16,7 +17,16 @@ body{
 }
 
 .font{
-  font-family: 'SquareFont', cursive;
+  font-family: 'Thunder Nova', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 5px;
+}
+
+.font-main{
+  font-family: 'Thunder Nova', sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
 }
 
 /* Navigation */
@@ -51,7 +61,7 @@ nav{
   background: none;
   border: none;
   color: #d70a84;
-  font-family: 'SquareFont';
+  font-family: 'Thunder Nova', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -60,10 +70,11 @@ nav{
   background: none;
   padding: 0px;
   margin: 0px;
-  font-family: 'SquareFont';
+  font-family: 'Thunder Nova', sans-serif;
   border: none;
-  font-size: 1.5rem;
-  width: 150px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  width: 300px;
 }
 /* Header */
 header{
@@ -71,7 +82,7 @@ header{
   flex-direction:column;
   justify-content: center;
   width: 100%;
-  height: 70vh;
+  height: 300px;
   background-image: url('images/bio.png');
   background-size:cover;
   /* background: rgb(215,10,132);
@@ -232,7 +243,7 @@ footer{
   background: none;
   border: solid 1px #d70a84;
   color: #d70a84;
-  font-family: 'SquareFont';
+  font-family: 'Snowstorm', sans-serif;
 }
 
 
